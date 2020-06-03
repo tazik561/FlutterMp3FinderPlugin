@@ -79,6 +79,7 @@ class Mp3Model {
 }
 ```
 
+ ![](images/Screenshot.png)
 
 > Only for Android.
 
