@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c42c98cd-dcca-47ed-af9f-94d3ba51d10c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1cj6V6ptv0dKwDjCkRwq3Ck0F71" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c42c98cd-dcca-47ed-af9f-94d3ba51d10c" name="Default Changelist" comment="" />
+      <created>1591029675125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591029675125</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="471" y="407" width="298" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591030029135">
+      <screen x="36" y="0" width="1644" height="1050" />
+    </state>
+    <state x="471" y="407" width="298" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/36.0.1644.1050@36.0.1644.1050" timestamp="1591030029135" />
+    <state x="203" y="173" width="828" height="684" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1591030025961">
+      <screen x="36" y="0" width="1644" height="1050" />
+    </state>
+    <state x="203" y="173" width="828" height="684" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/36.0.1644.1050@36.0.1644.1050" timestamp="1591030025961" />
+  </component>
+</project>
