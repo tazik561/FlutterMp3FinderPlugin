@@ -47,7 +47,7 @@ public class FlutterMp3FinderPlugin implements FlutterPlugin, MethodCallHandler,
 
     @Override
     public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-        channel = new MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "flutter_mp3_finder");
+        channel = new MethodChannel( flutterPluginBinding.getBinaryMessenger(),"flutter_mp3_finder");
         channel.setMethodCallHandler(this);
     }
 
@@ -138,7 +138,8 @@ public class FlutterMp3FinderPlugin implements FlutterPlugin, MethodCallHandler,
                     data.setSize(cursor.getString(4));
                     data.setData(cursor.getString(5));
                     data.setDateAdded(cursor.getString(6));
-                    data.setAlbumImage(getImage(Long.parseLong(cursor.getString(cursor.getColumnIndex(MediaStore.Audio.Media.ALBUM_ID)))));
+                    String image = getImage(Long.parseLong(cursor.getString(cursor.getColumnIndex(MediaStore.Audio.Media.ALBUM_ID))));
+                    data.setAlbumImage(image);
                     cursor.moveToNext();
                     mp3DataList.add(data);
                 }
@@ -192,8 +193,12 @@ public class FlutterMp3FinderPlugin implements FlutterPlugin, MethodCallHandler,
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        Bitmap artwork = BitmapFactory.decodeStream(in);
-        return getBase64Image(artwork);
+        if(in == null){
+            return "";
+        } else {
+            Bitmap artwork = BitmapFactory.decodeStream(in);
+            return getBase64Image(artwork);
+        }
     }
 
     private String getBase64Image(Bitmap bitmap) {
