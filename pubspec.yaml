@@ -1,6 +1,6 @@
 name: flutter_mp3_finder
 description: A new Flutter plugin for listing all mp3 informations located in phone storage in mobile.
-version: 0.1.0
+version: 1.0.1
 author: ali tazik <ali.tazik@gmail.com>
 homepage: https://github.com/tazik561/FlutterMp3FinderPlugin
 
