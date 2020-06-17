@@ -4,7 +4,7 @@ A flutter plugin to get all Mp3 files and it's information like [Path, Album, Al
 
 ``` dart
 dependencies:
- flutter_mp3_finder: ^0.1.0
+ flutter_mp3_finder: ^1.0.1
 ```
 
 Sample Code
